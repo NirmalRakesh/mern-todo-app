@@ -86,7 +86,7 @@ export default function App() {
 
 
       {loading && <p>Loading…</p>}
-      {error && <p style={{ color: 'red' }}>{error}</p>}
+      {/* {error && <p style={{ color: 'red' }}>{error}</p>} */}
 
 
       <div style={{ display: 'grid', gap: 10, marginTop: 16 }}>

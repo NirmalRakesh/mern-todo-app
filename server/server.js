@@ -4,9 +4,17 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import morgan from 'morgan';
 import todosRouter from './routes/todos.js';
+// import path from "path";
 
 
 const app = express();
+
+
+// const dirname = path.resolve();
+// app.use(express.static(path.resolve(dirname, "/client/build")));
+
+
+// app.get("*",(req, res) => res.sendFile(path.resolve(dirname, "/client/build/index.html")));
 
 
 app.use(cors({ origin: ['http://localhost:5173'], credentials: false }));
